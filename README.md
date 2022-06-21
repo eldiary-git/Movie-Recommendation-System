@@ -5,5 +5,7 @@ We use Many libraries and Models like (cosine similarity) which help us to find 
 Document Localization:
 We get the best matching results by applying these steps:
 •	First, we define the dataset and choose the columns that we need then we remove the empty fields (null results).
+
 •	Second, compining the selected features which is (Genres, Keywords, tagline, cast, director), then we use (cosine_similarity ) to get the similar movies.
+
 •	Third , finally we creating the Movie Recommendation System which help us to get the close match results based on user search.
